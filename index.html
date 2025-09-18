@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carry100 - Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <style>
+        .hero { background: linear-gradient(135deg, #0d3a66 0%, #0a4c7c 100%); }
+        .project-card { transition: transform 0.3s ease; }
+        .project-card:hover { transform: translateY(-5px); }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero is-medium is-bold">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title is-1 has-text-white">Carry100</h1>
+                <h2 class="subtitle has-text-light">Cybersecurity Researcher</h2>
+                <p class="has-text-light">Building defensive security tools and researching threat actor TTPs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-centered">Featured Project</h2>
+            
+            <!-- CanaryTrap Project Card -->
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <div class="card project-card">
+                        <header class="card-header">
+                            <p class="card-header-title is-size-4">
+                                Project CanaryTrap (CODE BLACK)
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <p>A distributed, serverless canary token system designed to detect intrusions and unauthorized access. The system generates stealthy traps (URLs, documents) that send real-time alerts upon interaction, logging attacker forensic data.</p>
+                                <br>
+                                <ul>
+                                    <li><strong>Tech Stack:</strong> Cloudflare Workers, JavaScript, GitHub API, Discord Webhooks</li>
+                                    <li><strong>Key Features:</strong> Real-time Discord alerts, centralized dashboard, forensic logging (IP, User-Agent, time)</li>
+                                    <li><strong>Tags:</strong> #DFIR #BlueTeam #ThreatDetection</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <a href="https://github.com/carry100/canarytrap-dashboard" class="card-footer-item">View Code</a>
+                            <a href="https://carry100.github.io/canarytrap-dashboard/" class="card-footer-item">Live Dashboard</a>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Cybersecurity Portfolio</strong> by Carry100.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
